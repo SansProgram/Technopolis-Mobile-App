@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_apply"-->
+<!--            android:icon="@drawable/ic_apply"-->
+<!--            android:title="Application"-->
+<!--            android:visible="false" />-->
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact Us" />
+    </group>
+
+    <group android:id="@+id/staff_menu_group">
+        <item
+            android:id="@+id/nav_apply"
+            android:icon="@drawable/ic_apply"
+            android:title="Applicants" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="More Settings"
+            />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_menu_set_as"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

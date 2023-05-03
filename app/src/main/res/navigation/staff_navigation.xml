@@ -1,0 +1,13 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/staff_navigation"
+    app:startDestination="@id/nav_apply">
+
+    <fragment
+        android:id="@+id/nav_apply"
+        android:name="com.example.technopolis_mobileapp.ui.Apply.ApplyFragment"
+        android:label="Application"
+        tools:layout="@layout/fragment_apply" />
+
+</navigation>

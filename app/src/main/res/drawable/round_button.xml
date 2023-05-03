@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <corners android:radius="12dp" />
+        <solid android:color="#ffffff" />
+        <padding
+            android:left="4dp"
+            android:top="4dp"
+            android:right="4dp"
+            android:bottom="4dp" />
+        <stroke
+            android:width="1dp"
+            android:color="#cccccc" />
+        <corners android:radius="12dp" />
+        <gradient
+            android:type="linear"
+            android:startColor="#ffffff"
+            android:endColor="#f0f0f0"
+            android:angle="270" />
+        <solid android:color="@color/Technopolis_MobileApp"/>
+    </shape>
